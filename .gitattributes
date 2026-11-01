@@ -1,0 +1,11 @@
+# See https://github.com/github/linguist
+# Default behavior   
+src/**/*.tsx linguist-detectable
+*.json linguist-detectable=false
+*.map linguist-generated
+*.ico binary
+*.woff2 binary
+*.htm linguist-vendored
+*.svg text
+*.sh text eol=lf
+*.gif binary
